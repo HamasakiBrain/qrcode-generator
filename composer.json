@@ -1,0 +1,36 @@
+{
+  "name": "hamasakibrain/qrcode-generator",
+  "description": "Laravel package for use Qrcode Api",
+  "keywords": [
+    "QR generator",
+    "laravel",
+    "monkey",
+    "qrcode"
+  ],
+  "homepage": "https://github.com/hamasakibrain/qrcode-generator",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "HamasakiBrain",
+      "email": "herovuwbdal@gmail.com",
+      "role": "Pizdolovka"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "HamasakiBrain\\QRCodeMonkey\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "HamasakiBrain\\QRCodeMonkey\\QRCodeMonkeyServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
